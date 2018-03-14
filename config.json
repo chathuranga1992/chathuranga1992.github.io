@@ -1,0 +1,35 @@
+{
+	"repo" : "https://github.com/chathuranga1992/chathuranga1992.github.io" 
+	
+	, "personalDetails" : {
+	    "firstName" : "Chathuranga",
+	    "lastName" : "Kanchana",
+	    "description" : "Undergraduate<br/>BSc Special<br/>Computer Science and Technology<br/>Uva Wellassa University",
+        "cv" : "download/Chathuranga.pdf"
+	}
+
+	, "media" : {
+		"profileImage" : "https://avatars0.githubusercontent.com/u/25917345?s=400&u=292bce4d68bc5dfb18c94b606bc390acdbc21720&v=4"
+	}
+
+	, "links" : {
+		"social" : {
+			"Facebook" : "https://www.facebook.com/chathuranga.knchana",
+			"Twitter" : "https://www.twitter.com/CHATHURANGA092",
+			"Instagram" : "https://www.instagram.com/chathuranga_kanchana/"
+		},
+		"professional" : {
+			"LinkedIn" : "https://www.linkedin.com/in/chathuranga-kanchana-a2876b149/"
+		},
+		"coding" : {
+			"GitHub" : "https://github.com/chathuranga1992",
+			
+		},
+		"writing" : {
+			"TechBlog" : "http://socialbox.co.com/blog",
+			"PersonalBlog" : "http://chathurangak.blogspot.com/",
+			
+		}
+	}
+	
+}

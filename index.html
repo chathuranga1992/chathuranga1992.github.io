@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Chathuranga Kanchana</title>
+	<meta name="author" content="Chathuranga Kanchana">
+	<meta name="description" content="Profile of Chathuranga Kanchana">
+	<meta name="keywords" content="developer, programming, coding enthusiast, software developer, programmer, competitive programmer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108249928-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-108249928-1');
+	</script>
+	
+</head>
+<body>
+	
+	<header></header>
+	<br/>
+	<br/>
+	<div class="container" ng-app="profilePage" ng-controller="mainController">
+
+		<div class="row" style="padding: 12px;">
+			<div class="left col-lg-3 col-md-6 col-sm-12 text-center" >
+				<img src="" class="img-responsive rounded-circle" id="profileImageNode" />
+				<br/>
+				<br/>
+				<h3>{{name}}</h3>
+				<br/>
+				<h6 ng-bind-html="description"></h6>
+				<br/>
+				<br/>
+			</div>
+			<div class="right col-lg-9 col-md-6 col-sm-12">
+				<br/>
+				<h5>Professional</h5>
+
+				<ul class="normal">
+					<li>
+						<a href="" id="li" target="_blank">Linkedin</a>
+					</li>
+				</ul>
+				<br/>
+				<h5>Social</h5>
+
+				<ul class="normal">
+					<li>
+						<a href="" id="fb" target="_blank">Facebook</a> &middot;
+						<a href="" id="tw" target="_blank">Twitter</a> &middot;
+						<a href="" id="it" target="_blank">Instagram</a>
+					</li>
+				</ul>
+
+				<br/>
+				<h5>Coding</h5>
+
+				<ul class="normal">
+					<li>
+						<a href="" id="gh" target="_blank">Github</a> 
+					</li>
+				</ul>
+
+				<br/>
+				<h5>Writing</h5>
+
+				<ul class="normal">
+					<li>
+						<a href="" id="db" target="_blank">Socialbox</a> &middot;
+						<a href="" id="pb" target="_blank">Personal Blog</a>
+					</li>
+				</ul>
+
+				<hr/>
+				<div class="text-center">
+					<a href="" class="btn btn-success" id="cvd">Download Resume</a>
+				</div>
+			</div>
+		</div>		
+		
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-sanitize.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
